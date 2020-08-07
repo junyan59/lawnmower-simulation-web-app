@@ -1,0 +1,127 @@
+/* Header */
+
+
+/* Content */
+body {
+    font-family: "Open Sans", arial, sans-serif;
+    color: #2d3c49;
+}
+
+.row {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.parent {
+    display: flex;
+    flex-direction:row;
+}
+.strip {
+    background-color: rgb(202, 213, 223)
+}
+.box {
+    background: #dfecf7
+}
+.float-left {
+    float:left;
+}
+.float-right {
+    float:right;
+}
+
+.text-blue {
+    color: #7d97ad;
+}
+
+.map-table {
+    table-layout: fixed;
+}
+
+.grass {
+    background-image: url("grass.png");
+    background-size: cover;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center
+}
+
+.mower {
+    background-image: url("mower.png");
+    background-size: cover;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center
+}
+
+.crater {
+    background-image: url("crater.png");
+    background-size: cover;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center
+}
+
+.mowercharge {
+    background-image: url("mowercharge.png");
+    background-size: cover;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center
+}
+
+.charge {
+    background-image: url("charge.png");
+    background-size: cover;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center
+}
+
+.empty {
+    background: white;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center
+}
+
+.tr-col {
+    width: 50px;
+    height: 50px;
+    text-align: center
+}
+.bg-color {
+    background-color: #F5F5F5
+}
+
+.tr-col-left {
+    width: 20px;
+    height: 50px;
+    text-align: center
+}
+
+.map-tr {
+    height: 50px;
+
+}
+
+.link {
+    cursor:pointer;
+}
+
+.true {
+    background-color: yellow;
+}
+
+.hidden {
+    display: none;
+}
+
+.tableFixHead          { overflow-y: auto; height: 500px; }
+.tableFixHead thead th { position: sticky; top: 0; }
+
